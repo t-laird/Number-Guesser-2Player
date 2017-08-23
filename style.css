@@ -1,0 +1,333 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 0px;
+}
+
+header{
+	width:100%;
+	background-color:#404041;
+	text-align:center;
+	margin: auto;
+	margin-bottom:1%;
+}
+
+::-webkit-input-placeholder {
+    color: #E6E7E8;
+    font-weight: 300;
+}
+
+div.minmax{
+	margin-left: auto;
+	margin-right: auto;
+	dispaly: inline-block;
+	text-align: center;
+}
+
+table{
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+h1{
+	display:inline-block;
+	font-size:400%;
+	margin-top:1%;
+	margin-bottom:2%;
+}
+
+h1.pink{
+	color: #ED458B;
+	font-weight: 700;
+}
+
+h1.guess{
+	color: #E6E7E8;
+	font-weight: 300;
+}
+
+h1.two-player{
+	color: #138bd6;
+	font-weight: 700;
+}
+
+h2{	
+	color: #444CB2;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	text-align:right;
+}
+
+th.p1{
+	font-size: 300%;
+	color: #138bd6;
+	margin-top: -800pxd;
+}
+
+th.p2{
+	font-size: 300%;
+	color: #09f215;
+	height: 50%;
+}
+
+p.p1{
+	font-size: 25%;
+	display: inline-block;
+}
+
+p.p2{
+	font-size: 25%;
+	display: inline-block;
+
+}
+
+section{
+	text-align:center;
+}
+
+input{
+	color:#E6E7E8;
+}
+
+input:focus{
+	color: #E6E7E8;
+}
+input.input-field1{
+	display: block;
+	height: 50px;
+	margin: 0px auto;
+	font-size:200%;
+	color:#E6E7E8;
+	font-weight:300;
+	width: 80%;
+	margin-bottom: 4.33%;
+}
+
+input.input-field2{
+	display: block;
+	height: 50px;
+	margin: 0px auto;
+	font-size:200%;
+	color:#E6E7E8;
+	font-weight:300;
+	width: 80%;
+	margin-bottom: 4.33%;
+}
+
+
+input.input-min{
+	display: inline-block;
+	height: 50px;
+	margin: 0px auto;
+	margin-top: 1.5%;
+	font-size:200%;
+	color:#E6E7E8;
+	font-weight:300;
+	width: 17%;
+	margin-bottom: 2%;
+	margin-right: 1%;
+}
+
+input.input-max{
+	display: inline-block;
+	height: 50px;
+	margin: 0px auto;
+	font-size:200%;
+	color:#E6E7E8;
+	font-weight:300;
+	width: 17%;
+	margin-bottom: 2%;
+	margin-right: 1.5%;
+}
+
+section{
+	margin: 0px auto;
+}
+
+button{
+	border-radius: 35px;
+	font-size:200%;
+	width:20.47%;
+	display: inline-block;
+	font-weight: 300;
+	background-color: #D0D2D3;
+	border: #D0D2D3;
+	color: #FFFFFF;
+}
+
+button.reset{
+	width:85%;
+}
+
+button.guess-button1{
+	margin-bottom: 4.50%;
+	width: 45%;
+}
+
+button.guess-button2{
+	margin-bottom: 4.50%;
+	width: 45%;
+}
+
+button.clear-input1{
+	margin-left: 2.5%;
+	width: 45%;
+
+}
+
+button.clear-input2{
+	margin-left: 2.5%;
+	width: 45%;
+
+}
+
+div.guessclear{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+td.resetbutton{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+button:disabled{
+	background-color: #D0D2D3;
+	color: #FFFFFF;
+}
+
+td.settingminmax{
+	padding-bottom: -80px;
+}
+
+button:enabled{
+	background-color: #929497;
+	color: #FFFFFF;
+}
+
+button:hover{
+	background-color: #EB008B;
+	color: #FFFFFF;
+}
+
+button.reset{
+	margin-bottom: 1%;
+}
+
+p.number1{
+	color: #EB008B;
+	font-size: 1200%;
+	text-align: center;
+	margin-top: -10%;
+	margin-bottom: -10%;
+}
+
+p.number2{
+	color: #EB008B;
+	font-size: 1200%;
+	text-align: center;
+	margin-top: -10%;
+	margin-bottom: -10%;
+}
+
+p.lastG{
+	color: #404041;
+	dispaly: inline-block;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+p.range{
+	color: #404041;
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+p.highlow1{
+	color: #404041;
+	font-size: 125%;
+	text-align: center;
+	margin-bottom: 1%;`
+	margin-top: 0px;
+}
+p.highlow2{
+	color: #404041;
+	font-size: 125%;
+	text-align: center;
+	margin-bottom: 1%;`
+	margin-top: 0px;
+}
+
+p.minmaxerror{
+	color:red;
+	margin-top:0px;
+	text-align:center;
+}
+
+p.winnerplusrange{
+	position: fixed;
+	top: 55%;
+	right: 0.5%;
+	font-size:150%;
+	text-align:left;
+	font-weight: 700;
+	float:right;
+	width:35%;
+}
+
+p.winnerminusrange{
+	position: fixed;
+	top: 55%;
+	right: 0.5%;
+	font-size:150%;
+	text-align:left;
+	font-weight: 700;
+	float:right;
+	width:35%;
+}
+
+input#same{
+	margin-bottom:2%;
+}
+
+p.difficulty{
+	display: inline-block;
+	font-weight: 700;
+}
+
+img.crown1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: -10%;
+}
+
+img.crown2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: -10%;
+}
+
+img.loser1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	margin-top: -10%;
+}
+
+img.loser2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	margin-top: -10%;
+}

@@ -1,0 +1,86 @@
+<!doctype = html>
+<html lang="en">
+
+<head>
+	<title> Number Guesser - 2 Player</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<h1 class="main_head pink"> Number </h1> <h1 class="guess"> Guesser </h1> <h1 class="two-player"> 2-Player </h1>
+	
+	</header>
+
+	
+	<section>
+	<table>
+		<tr>
+			<td colspan="2" class="settingminmax">
+				<p class="range"> Specify the minimum and maximum range you want the random number to be between! </p>
+				<div class="minmax">
+				<input type="numeric" class="input-min" placeholder="min" value=1>
+				<input type="numeric" class="input-max" placeholder="max" value=100> </div><br>
+				<p class="minmaxerror" hidden> * </p> </td> </tr>
+		<tr>
+			<th class="p1"> <img class="crown1" src="crown.png" hidden> <img class="loser1" src="loser.png" hidden> <br> Player One <p class="p1 yourturn1"> Your turn!</p></th> <th class="p2"> <img class="crown2" src="crown.png" hidden> <img class="loser2" src="loser.png" hidden> <br> Player Two <p class="p2 yourturn2"></p></th></tr>
+		
+		<tr>
+			<td>
+				<input type="numeric" class="input-field1" placeholder="Enter your guess"> </td>
+			<td>
+				<input type="numeric" class="input-field2" placeholder="Enter your guess"> </td>
+		</tr>	
+				
+		<tr>
+			<td>
+				<div class="guessclear"> <button class = "guess-button1" disabled> Guess </button>
+				<button class = "clear-input1" disabled> Clear </button> </div> </td>
+			<td>	
+				<div class="guessclear"> <button class = "guess-button2" disabled> Guess </button>
+				<button class = "clear-input2" disabled> Clear </button> </div> </td>
+		</tr>
+		<tr>	
+			<td>			
+				<p class="lastG"> Your last guess was </p></td>
+			<td>
+				<p class="lastG"> Your last guess was </p></td>
+		</tr>
+		
+		<tr>
+			<td>	
+				<p class="number1"> # </p> </td>
+			<td>
+				<p class="number2"> # </p> </td>
+		</tr>
+
+		<tr>
+			<td>
+				<p class="highlow1"> After your first guess check here for a hint! </p> </td>
+			<td>
+				<p class="highlow2"> After your first guess check here for a hint! </p> </td> </tr>
+		<tr>
+			<td colspan="2" class="resetbutton">
+				<button class = "reset" disabled> Reset </button> </td></tr></table>
+				
+
+		
+
+
+		
+		
+	</section>
+	
+		
+
+
+
+	<script type="text/javascript" src="script-two.js"></script>
+
+
+</body>
+</html>
+
+
